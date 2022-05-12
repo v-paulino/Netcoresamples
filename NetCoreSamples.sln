@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketsApi", "src\TicketsAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketsClient", "src\TicketsClient\TicketsClient.csproj", "{D4F89AA6-DE74-489A-8995-98F4B6EEF25F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfWeatherService", "src\WcfWeatherService\WcfWeatherService.csproj", "{62F4B240-E3F2-4A3A-B6D2-11AB4F5981C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WcfWeatherClient", "src\WcfWeatherClient\WcfWeatherClient.csproj", "{272202BC-FB1F-46FC-98CC-C836813A7000}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{D4F89AA6-DE74-489A-8995-98F4B6EEF25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4F89AA6-DE74-489A-8995-98F4B6EEF25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4F89AA6-DE74-489A-8995-98F4B6EEF25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62F4B240-E3F2-4A3A-B6D2-11AB4F5981C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F4B240-E3F2-4A3A-B6D2-11AB4F5981C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F4B240-E3F2-4A3A-B6D2-11AB4F5981C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F4B240-E3F2-4A3A-B6D2-11AB4F5981C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{272202BC-FB1F-46FC-98CC-C836813A7000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272202BC-FB1F-46FC-98CC-C836813A7000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272202BC-FB1F-46FC-98CC-C836813A7000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272202BC-FB1F-46FC-98CC-C836813A7000}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{683B049D-3946-4FFD-9595-41C7F859B540} = {5CB9C6E0-D2A7-4401-A8A6-7B281820A376}
 		{D4F89AA6-DE74-489A-8995-98F4B6EEF25F} = {5CB9C6E0-D2A7-4401-A8A6-7B281820A376}
+		{62F4B240-E3F2-4A3A-B6D2-11AB4F5981C5} = {5CB9C6E0-D2A7-4401-A8A6-7B281820A376}
+		{272202BC-FB1F-46FC-98CC-C836813A7000} = {5CB9C6E0-D2A7-4401-A8A6-7B281820A376}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24591988-93B0-406B-988F-39D5A6331828}
